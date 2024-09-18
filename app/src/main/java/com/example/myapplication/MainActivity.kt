@@ -46,6 +46,9 @@ class MainActivity : AppCompatActivity() {
             it.setupWithNavController(navController)
         }
 
+
+
+
         binding.appBarMain.contentMain.bottomNavView?.let {
             appBarConfiguration = AppBarConfiguration(
                 setOf(
